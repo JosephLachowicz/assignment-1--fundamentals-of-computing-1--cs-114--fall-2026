@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Assignment1Program1 {
   public static void main(String[] args) {
     
@@ -10,6 +12,9 @@ public class Assignment1Program1 {
     System.out.println(" JJJ JJJ         LLLLLLLLLL");
     System.out.println("  JJJJ           LLLLLLLLLL");
 
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Please enter a 5-character string: ");
+    String input = scanner.nextLine();
     
   }
 }
