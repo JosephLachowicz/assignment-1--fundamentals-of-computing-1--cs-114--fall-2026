@@ -14,7 +14,7 @@ public class Assignment1Program1 {
 
     Scanner scanner = new Scanner(System.in);
     System.out.println("Please enter a 5-character string: ");
-    String input = scanner.nextLine();
-    
+    String intput1 = scanner.nextLine();
+
   }
 }
