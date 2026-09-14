@@ -24,5 +24,7 @@ public class Assignment1Program1 {
 
     int randomnum = (int) (Math.random() * 16834) + 32;
     System.out.println("Random number generated. Continuing... ");
+
+    System.out.println("Your new string is: " + celsius + reverse + randomnum);
   }
 }
