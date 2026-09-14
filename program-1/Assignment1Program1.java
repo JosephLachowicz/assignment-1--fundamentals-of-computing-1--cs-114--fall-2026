@@ -21,6 +21,8 @@ public class Assignment1Program1 {
     System.out.println("Please enter a number in Fahrenheit: ");
     String input2 = scanner.nextLine();
     String celsius = String.valueOf((Integer.parseInt(input2) - 32) * 5 / 9);
-    
+
+    int randomnum = (int) (Math.random() * 16834) + 32;
+    System.out.println("Random number generated. Continuing... ");
   }
 }
