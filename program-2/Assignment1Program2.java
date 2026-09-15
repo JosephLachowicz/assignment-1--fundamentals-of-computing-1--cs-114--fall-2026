@@ -13,15 +13,15 @@ public class Assignment1Program2 {
     String input2 = scanner.nextLine();
 
     int num = 4;
-    String answer = "";
     while (num > 0) {
       int remainder = Integer.parseInt(input2) % Integer.parseInt(input);
       int num1 = Integer.parseInt(input2) / Integer.parseInt(input);
-      input2 = Integer.toString(num1);
-      answer = Integer.toString(remainder);
+      input2 = String.valueOf(num1);
       --num;
     }
-    System.out.print(answer);
+    
+    String reverse = new StringBuilder(String.valueOf(remainder)).reverse().toString();
+    System.out.print(input2 + " (base 10) = " + reverse + " (base " + input + ")");
 
   }
 }
