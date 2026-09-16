@@ -20,11 +20,12 @@ public class Assignment1Program1 {
 
     System.out.println("Please enter a number in Fahrenheit: ");
     String input2 = scanner.nextLine();
-    String celsius = String.valueOf((Integer.parseInt(input2) - 32) * 5 / 9);
+    double celsius = (int) ((Integer.parseInt(input2) - 32.0) * 5.0 / 9.0);
+    double celsiusR = Math.round(celsius);
 
     int randomnum = (int) (Math.random() * 16834) + 32;
     System.out.println("Random number generated. Continuing... ");
 
-    System.out.println("Your new string is: " + celsius + reverse + randomnum);
+    System.out.println("Your new string is: " + celsiusR + reverse + randomnum);
   }
 }
